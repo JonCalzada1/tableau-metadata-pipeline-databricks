@@ -13,6 +13,9 @@ This project is the Databricks-based Version 2 of the Tableau Metadata Monitorin
 
 The goal of this version was to adapt the original local pipeline into a more scalable, platform-aligned design using Databricks. The pipeline ingests Tableau Cloud metadata through the Tableau REST API, lands the raw data into bronze Delta tables, transforms and enriches it in silver, and builds a final gold monitoring table for downstream BI monitoring and governance use cases.
 
+### Successful Databricks Workflow Run
+![Successful Databricks workflow run](images/databricks_workflow_success.png)
+
 ## Architecture
 The pipeline follows a medallion-style design:
 
