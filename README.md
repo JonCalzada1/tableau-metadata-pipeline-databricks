@@ -8,6 +8,7 @@
 - `images/gold_bi_asset_monitoring.png` — screenshot of the final gold monitoring table
 - `README.md` — project overview, architecture, medallion design, orchestration, and implementation details
 - `requirements.txt` — Python dependency used in the ingestion notebook
+- `.gitignore` — excludes local environment and temporary files from version control
 
 ## Overview
 This project is the Databricks-based Version 2 of the Tableau Metadata Monitoring Pipeline.
