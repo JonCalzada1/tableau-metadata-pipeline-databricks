@@ -165,7 +165,9 @@ The pipeline is orchestrated in Databricks using a workflow with three dependent
 
 Task dependency flow:
 
+```text
 bronze_ingestion -> silver_transform -> gold_monitoring
+```
 
 This workflow design provides:
 
